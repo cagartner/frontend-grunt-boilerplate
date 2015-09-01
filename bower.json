@@ -1,0 +1,30 @@
+{
+  "name": "frontend-grunt-boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "Carlos Gartner <contato@carlosgartner.com.br>"
+  ],
+  "description": "Esqueleto para desenvolvimento com Grunt",
+  "keywords": [
+    "frontend",
+    "boilerplate",
+    "grunt",
+    "html",
+    "less",
+    "sass",
+    "js"
+  ],
+  "license": "MIT",
+  "homepage": "http://carlosgartner.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

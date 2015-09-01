@@ -69,7 +69,10 @@ module.exports = function(grunt) {
         watch: {
             dist: {
                 files: ['src/js/**/*', 'src/sass/**/*', 'src/less/**/*', 'src/images/**/*'],
-                tasks: ['uglify', 'less']
+                tasks: ['uglify', 'less'],
+                options: {
+                    livereload: true
+                },
             }
         } // watch
     });
